@@ -7,3 +7,10 @@
     top: 144px;
     z-index: 1;
 }
+
+@media(max-width: 1550px) {
+    .content__background-image-2 {
+        left: auto;
+        right: -230px;
+    }
+}

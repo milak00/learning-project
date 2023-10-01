@@ -5,3 +5,9 @@
     height: 54px;
     flex-wrap: wrap;
 }
+
+@media(max-width: 1520px) {
+    .cover__date {
+
+    }
+}

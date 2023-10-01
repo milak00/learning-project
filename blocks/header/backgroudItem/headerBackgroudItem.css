@@ -7,3 +7,9 @@
     top: 0;
     z-index: 1;
 }
+
+@media(max-width: 1710px) {
+    .header__background-item {
+        display: none;
+    }
+}

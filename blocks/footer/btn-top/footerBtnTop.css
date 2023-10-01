@@ -1,0 +1,10 @@
+.footer__btn-top {
+    height: 16px;
+    position: absolute;
+    right: 46px;
+    top: 194px;
+}
+
+.footer__btn-top:hover svg path {
+    stroke: #A2CC5C;
+}
