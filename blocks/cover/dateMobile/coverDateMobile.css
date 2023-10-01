@@ -1,0 +1,12 @@
+.cover__date-mobile {
+    display: none;
+}
+
+@media(max-width: 1500px) {
+    .cover__date-mobile {
+        display: flex;
+        width: 500px;
+        flex-wrap: wrap;
+        margin-bottom: 44px;
+    }
+}

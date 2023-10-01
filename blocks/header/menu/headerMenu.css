@@ -7,3 +7,10 @@
     flex-wrap: wrap;
     margin: 0 82px 0 0;
 }
+
+@media(max-width: 1500px) {
+    .header__menu {
+        width: 506px;
+        margin-right: 22px;
+    }
+}

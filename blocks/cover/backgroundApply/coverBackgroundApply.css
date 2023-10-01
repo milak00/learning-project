@@ -5,3 +5,9 @@
     position: relative;
     float: left;
 }
+
+@media(max-width: 1500px) {
+    .cover__background-apply {
+        width: 520px;
+    }
+}

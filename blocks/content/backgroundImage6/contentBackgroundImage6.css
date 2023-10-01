@@ -6,3 +6,11 @@
     top: 2576px;
     right: 0;
 }
+
+@media(max-width: 1500px) {
+    .content__background-image-6 {
+        z-index: -1;
+        right: -45px;
+        top: 2449px;
+    }
+}

@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     margin-bottom: -47px;
 }
+
+@media(max-width: 1500px) {
+    .news__cards {
+        margin-bottom: 0;
+    }
+}

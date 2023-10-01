@@ -4,3 +4,9 @@
     display: flex;
     margin-bottom: 112px;
 }
+
+@media (max-width: 1500px) {
+    .news__post {
+        margin-bottom: 90px;
+    }
+}

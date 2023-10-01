@@ -7,3 +7,9 @@
     top: 875px;
     right: 0;
 }
+
+@media(max-width: 1500px) {
+    .news__background_green {
+        display: none;
+    }
+}

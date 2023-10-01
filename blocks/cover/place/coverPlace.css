@@ -5,3 +5,12 @@
     font-weight: bold;
     margin-top: 29px;
 }
+
+@media(max-width: 1500px) {
+    .cover__place {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 18px;
+    }
+}

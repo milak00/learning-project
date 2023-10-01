@@ -4,3 +4,9 @@
     background: #333333;
     padding: 53px 0 0 0;
 }
+
+@media(max-width: 1500px) {
+    .footer {
+        position: static;
+    }
+}

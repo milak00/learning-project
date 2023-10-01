@@ -8,3 +8,10 @@
 .footer__btn-top:hover svg path {
     stroke: #A2CC5C;
 }
+
+
+@media (max-width: 1500px) {
+    .footer__btn-top {
+        top: auto;
+    }
+}

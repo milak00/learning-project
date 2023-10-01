@@ -6,3 +6,9 @@
     top: 1875px;
     left: 136px;
 }
+
+@media(max-width: 1500px) {
+    .content__background-image-5 {
+        display: none;
+    }
+}

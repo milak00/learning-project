@@ -7,3 +7,10 @@
     top: 1939px;
     left: 0;
 }
+
+@media(max-width: 1500px) {
+    .content__background-image-4 {
+        top: 1910px;
+        left: -340px;
+    }
+}
