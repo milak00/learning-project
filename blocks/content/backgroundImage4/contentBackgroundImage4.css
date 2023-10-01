@@ -1,0 +1,9 @@
+.content__background-image-4 {
+    background: url(../../../assets/img/backgroundImage4/image.png);
+    width: 546px;
+    height: 350px;
+    position: absolute;
+    z-index: -1;
+    top: 1939px;
+    left: 0;
+}

@@ -1,0 +1,6 @@
+.partners__controls {
+    display: flex;
+    justify-content: right;
+    height: 25px;
+    margin-bottom: 110px;
+}

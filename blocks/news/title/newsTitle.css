@@ -1,0 +1,14 @@
+.news__title {
+    background: #C2DA6B;
+    width: 215px;
+    height: 53px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+.news__title strong {
+    word-spacing: 15px;
+    color: #333333;
+    font-size: 58px;
+    font-weight: 400;
+}

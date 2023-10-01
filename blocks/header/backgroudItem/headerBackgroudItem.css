@@ -1,0 +1,9 @@
+.header__background-item {
+    background: #A2CC5C;
+    position: absolute;
+    width: 149px;
+    height: 211px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}

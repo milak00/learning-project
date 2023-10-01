@@ -1,0 +1,14 @@
+.header__dropdown-item {
+    list-style: none;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 24px 30px;
+
+}
+

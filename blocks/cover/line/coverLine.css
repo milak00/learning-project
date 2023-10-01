@@ -1,0 +1,5 @@
+.cover__line {
+    display: flex;
+    align-items: center;
+    margin: 10px 33px 0 36px;
+}

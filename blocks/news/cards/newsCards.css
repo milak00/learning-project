@@ -1,0 +1,5 @@
+.news__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -47px;
+}

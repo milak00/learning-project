@@ -1,0 +1,12 @@
+.cover__date-ending {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+
+}
+
+.cover__date-ending strong {
+    font-size: 24px;
+    letter-spacing: 5px;
+}

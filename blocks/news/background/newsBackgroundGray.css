@@ -1,0 +1,9 @@
+.news__background_gray {
+    background: #F0F0F0;
+    width: 613px;
+    height: 333px;
+    position: absolute;
+    z-index: -1;
+    top: 875px;
+    left: 124px;
+}

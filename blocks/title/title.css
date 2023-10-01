@@ -1,0 +1,10 @@
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: #333333;
+    font-size: 56px;
+    font-weight: 900 !important;
+    font-family: 'Montserrat', sans-serif;
+    grid-gap: 20px;
+}

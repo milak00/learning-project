@@ -1,0 +1,8 @@
+.footer__menu {
+    width: 414px;
+    height: 163px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}

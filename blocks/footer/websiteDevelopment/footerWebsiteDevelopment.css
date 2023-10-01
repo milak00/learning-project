@@ -1,0 +1,14 @@
+.footer__website-development {
+    color: #BBB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.83%;
+    text-decoration-line: underline;
+    background: #040404;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

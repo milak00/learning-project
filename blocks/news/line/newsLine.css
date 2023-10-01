@@ -1,0 +1,7 @@
+.news__line {
+    width: 142px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #A2CC5C;
+    margin-right: 30px;
+}

@@ -1,0 +1,23 @@
+.news__show-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 91px;
+}
+
+.news__show-more button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 69px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #A2CC5C;
+    font-family: 'Baufra', Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}

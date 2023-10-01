@@ -1,0 +1,9 @@
+.news__background_green {
+    background: #A2CC5C;
+    width: 465px;
+    height: 209px;
+    position: absolute;
+    z-index: -1;
+    top: 875px;
+    right: 0;
+}

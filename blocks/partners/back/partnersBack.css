@@ -1,0 +1,7 @@
+.partners__back {
+    background: url(../../../assets/img/partnersBack/image.png) no-repeat;
+    width: 16px;
+    height: 30px;
+    margin-right: 66px;
+    cursor: pointer;
+}

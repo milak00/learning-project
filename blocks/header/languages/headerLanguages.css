@@ -1,0 +1,6 @@
+.header__languages {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    margin: 0 47px 0 0;
+}

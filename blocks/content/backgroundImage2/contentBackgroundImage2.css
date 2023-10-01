@@ -1,0 +1,9 @@
+.content__background-image-2 {
+    background: url(../../../assets/img/backgrondImage2/image.png);
+    position: absolute;
+    width: 692px;
+    height: 638px;
+    left: 1098px;
+    top: 144px;
+    z-index: 1;
+}

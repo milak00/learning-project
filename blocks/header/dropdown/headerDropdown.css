@@ -1,0 +1,28 @@
+.header__dropdown {
+    list-style: none;
+    overflow: visible;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    width: 230px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 14px 0 rgba(51, 51, 51, 0.14);
+}
+
+.header__dropdown:before {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    top: -25px;
+    left: 100px;/* Положение треугольника */
+    border: 13px solid transparent;
+    border-bottom: 13px solid #ffffff;
+}
+
+.header__dropdown li:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+

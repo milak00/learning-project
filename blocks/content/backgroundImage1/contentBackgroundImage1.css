@@ -1,0 +1,9 @@
+.content__background-image-1 {
+    background: url(../../../assets/img/backgrondImage1/checkerboard.png);
+    width: 768px;
+    height: 192px;
+    position: absolute;
+    top: 101px;
+    left: 975px;
+    z-index: 0;
+}
