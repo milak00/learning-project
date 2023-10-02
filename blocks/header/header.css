@@ -5,3 +5,9 @@
     align-items: center;
     background: #ffffff;
 }
+
+@media(max-width: 1500px) {
+    .header {
+        justify-content: space-between;
+    }
+}

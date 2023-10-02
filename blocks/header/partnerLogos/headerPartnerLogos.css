@@ -1,4 +1,16 @@
 .header__partner-logos {
     display: flex;
-    margin: 0 41px 0 0;
+    margin: 0 161px 0 0;
+}
+
+@media(max-width: 1500px) {
+    .header__partner-logos {
+        margin: 0 40px 0 0;
+    }
+}
+
+@media(max-width: 1120px) {
+    .header__partner-logos {
+        margin: 0;
+    }
 }

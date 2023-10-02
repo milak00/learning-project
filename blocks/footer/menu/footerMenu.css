@@ -6,3 +6,9 @@
     justify-content: space-between;
     align-content: space-between;
 }
+
+@media(max-width: 1120px) {
+    .footer__menu {
+        display: none;
+    }
+}

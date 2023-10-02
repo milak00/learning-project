@@ -1,9 +1,18 @@
 .header__logo {
     background: url(../../../assets/img/headerLogo/logo.png) no-repeat;
-    width: 210px;
+    width: 100%;
     height: 68px;
     margin: 0 84px 0 0;
 }
 
+
 @media(max-width: 1500px) {
+    .header__logo {
+        width: 202px;
+    }
+}
+@media(max-width: 1120px) {
+    .header__logo {
+        margin: 0 0 0 0;
+    }
 }

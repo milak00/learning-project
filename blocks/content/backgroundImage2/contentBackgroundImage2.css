@@ -15,3 +15,9 @@
         width: 460px;
     }
 }
+
+@media(max-width: 1120px) {
+    .content__background-image-2 {
+        width: 295px;
+    }
+}

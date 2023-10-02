@@ -1,0 +1,12 @@
+.header__menu-btn {
+    height: 30px;
+    display: none;
+}
+
+@media(max-width: 1120px) {
+    .header__menu-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

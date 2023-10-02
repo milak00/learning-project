@@ -7,3 +7,10 @@
     line-height: normal;
     width: 178px;
 }
+
+@media (max-width: 1120px) {
+    .footer__menu-item {
+        width: auto;
+        margin-right: 75px;
+    }
+}

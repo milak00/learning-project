@@ -14,3 +14,10 @@
         margin-right: 22px;
     }
 }
+@media(max-width: 1120px) {
+    .header__menu {
+        display: none;
+    }
+}
+
+

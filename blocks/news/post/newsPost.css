@@ -10,3 +10,9 @@
         margin-bottom: 90px;
     }
 }
+
+@media (max-width: 1120px) {
+    .news__post {
+        margin-bottom: 70px;
+    }
+}

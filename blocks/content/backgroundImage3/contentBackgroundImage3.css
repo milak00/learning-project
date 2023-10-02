@@ -9,8 +9,16 @@
 
 @media(max-width: 1500px) {
     .content__background-image-3 {
-        right: 0px;
+        right: 0;
         top: 851px;
         width: 430px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .content__background-image-3 {
+        right: 0;
+        top: 851px;
+        width: 271px;
     }
 }

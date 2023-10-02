@@ -14,3 +14,10 @@
         max-width: 1110px;
     }
 }
+
+@media(max-width: 1120px) {
+    .container {
+        max-width: 930px;
+    }
+}
+
