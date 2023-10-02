@@ -11,6 +11,7 @@
 @media(max-width: 1660px) {
     .content__background-image-1 {
         left: auto;
-        right: -90px;
+        right: 0;
+        width: 678px;
     }
 }

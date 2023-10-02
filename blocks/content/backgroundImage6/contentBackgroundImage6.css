@@ -10,7 +10,8 @@
 @media(max-width: 1500px) {
     .content__background-image-6 {
         z-index: -1;
-        right: -45px;
+        right: 0px;
+        width: 215px;
         top: 2449px;
     }
 }

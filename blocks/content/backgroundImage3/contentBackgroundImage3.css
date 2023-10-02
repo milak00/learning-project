@@ -9,7 +9,8 @@
 
 @media(max-width: 1500px) {
     .content__background-image-3 {
-        right: -50px;
+        right: 0px;
         top: 851px;
+        width: 430px;
     }
 }
