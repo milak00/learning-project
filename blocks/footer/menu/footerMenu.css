@@ -10,5 +10,6 @@
 @media(max-width: 1120px) {
     .footer__menu {
         display: none;
+        width: auto;
     }
 }

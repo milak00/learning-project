@@ -10,7 +10,9 @@
 
 @media (max-width: 1120px) {
     .footer__menu-item {
+        font-size: 14px;
+        padding: 0 30px 30px 30px;
         width: auto;
-        margin-right: 75px;
+
     }
 }
