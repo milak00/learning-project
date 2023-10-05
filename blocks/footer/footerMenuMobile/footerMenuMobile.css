@@ -5,6 +5,5 @@
 @media(max-width: 1120px) {
     .footer__menu-mobile {
         display: block;
-        width: 930px;
     }
 }

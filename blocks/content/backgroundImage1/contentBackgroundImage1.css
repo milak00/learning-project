@@ -1,5 +1,5 @@
 .content__background-image-1 {
-    background: url(../../../assets/img/backgrondImage1/checkerboard.png);
+    background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
     width: 768px;
     height: 192px;
     position: absolute;
@@ -20,5 +20,12 @@
     .content__background-image-1 {
         background: url(../../../assets/img/backgrondImage1/checkerboard-mobile.png) no-repeat;
         width: 490px;
+    }
+}
+
+@media(max-width: 991px) {
+    .content__background-image-1 {
+        background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
+        width: 250px;
     }
 }

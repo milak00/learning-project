@@ -8,5 +8,6 @@
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 29px;
+        width: 100%;
     }
 }

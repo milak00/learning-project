@@ -21,3 +21,10 @@
         width: 295px;
     }
 }
+
+@media(max-width: 991px) {
+    .content__background-image-2 {
+        top: 333px;
+        width: 384px;
+    }
+}

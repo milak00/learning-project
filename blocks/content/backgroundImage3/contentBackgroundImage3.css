@@ -22,3 +22,9 @@
         width: 271px;
     }
 }
+
+@media(max-width: 991px) {
+    .content__background-image-3 {
+        display: none;
+    }
+}
