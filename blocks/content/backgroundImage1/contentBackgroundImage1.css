@@ -1,15 +1,14 @@
-.content__background-image-1 {
+.background-image-1 {
     background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
     width: 768px;
     height: 192px;
     position: absolute;
-    top: 101px;
     left: 975px;
     z-index: 0;
 }
 
 @media(max-width: 1660px) {
-    .content__background-image-1 {
+    .background-image-1 {
         left: auto;
         right: 0;
         width: 678px;
@@ -17,14 +16,14 @@
 }
 
 @media(max-width: 1120px) {
-    .content__background-image-1 {
+    .background-image-1 {
         background: url(../../../assets/img/backgrondImage1/checkerboard-mobile.png) no-repeat;
         width: 490px;
     }
 }
 
 @media(max-width: 991px) {
-    .content__background-image-1 {
+    .background-image-1 {
         background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
         width: 250px;
     }

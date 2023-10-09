@@ -1,3 +1,4 @@
 .cover__row {
     display: flex;
+    position: relative;
 }
