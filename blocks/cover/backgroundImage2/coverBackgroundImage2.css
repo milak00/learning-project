@@ -1,16 +1,15 @@
-.background-image-2 {
+.cover__background-image-2 {
     background: url(../../../assets/img/backgrondImage2/image.png);
     width: 692px;
     height: 638px;
     right: 0;
-    top: 144px;
     z-index: 1;
-    margin-left: 170px;
+    margin-right: -125px;
     position: absolute;
 }
 
 @media(max-width: 1550px) {
-    .background-image-2 {
+    .cover__background-image-2 {
         left: auto;
         right: 0;
         width: 460px;
@@ -18,13 +17,13 @@
 }
 
 @media(max-width: 1120px) {
-    .background-image-2 {
+    .cover__background-image-2 {
         width: 295px;
     }
 }
 
 @media(max-width: 991px) {
-    .background-image-2 {
+    .cover__background-image-2 {
         top: 333px;
         width: 384px;
     }

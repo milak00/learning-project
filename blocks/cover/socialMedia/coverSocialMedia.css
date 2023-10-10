@@ -1,6 +1,6 @@
 .cover__social-media {
-    width: 148px;
     display: flex;
     justify-content: space-between;
-    margin: 105px 0 0 60px;
+    margin-top: 85px;
+    width: 148px;
 }

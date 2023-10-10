@@ -1,13 +1,14 @@
-.cover__background-image {
+.cover__background-white {
     background: #ffffff;
     width: 498px;
     height: 457px;
     position: absolute;
     right: 0;
+    margin-right: -251px;
 }
 
 @media(max-width: 1710px) {
-    .cover__background-image {
+    .cover__background-white {
         display: none;
     }
 }

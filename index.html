@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="blocks/header/header.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -41,7 +42,7 @@
     <link rel="stylesheet" type="text/css" href="blocks/cover/info/coverInfo.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/title/coverTitle.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/backgroundApply/coverBackgroundApply.css">
-    <link rel="stylesheet" type="text/css" href="blocks/cover/backgroundImage/coverBackgroundImage.css">
+    <link rel="stylesheet" type="text/css" href="blocks/cover/background-white/coverBackgroundWhite.css">
     <link rel="stylesheet" type="text/css" href="blocks/news/news.css">
     <link rel="stylesheet" type="text/css" href="blocks/news/image/newsImage.css">
     <link rel="stylesheet" type="text/css" href="blocks/news/title/newsTitle.css">
@@ -57,8 +58,8 @@
     <link rel="stylesheet" type="text/css" href="blocks/news/description/newsDescription.css">
     <link rel="stylesheet" type="text/css" href="blocks/news/background/newsBackgroundGray.css">
     <link rel="stylesheet" type="text/css" href="blocks/news/background/newsBackgroundGreen.css">
-    <link rel="stylesheet" type="text/css" href="blocks/content/backgroundImage1/contentBackgroundImage1.css">
-    <link rel="stylesheet" type="text/css" href="blocks/content/backgroundImage2/contentBackgroundImage2.css">
+    <link rel="stylesheet" type="text/css" href="blocks/cover/backgroundImage1/coverBackgroundImage1.css">
+    <link rel="stylesheet" type="text/css" href="blocks/cover/backgroundImage2/coverBackgroundImage2.css">
     <link rel="stylesheet" type="text/css" href="blocks/content/backgroundImage4/contentBackgroundImage4.css">
     <link rel="stylesheet" type="text/css" href="blocks/content/backgroundImage5/contentBackgroundImage5.css">
     <link rel="stylesheet" type="text/css" href="blocks/content/backgroundImage6/contentBackgroundImage6.css">
@@ -154,7 +155,6 @@
     <div class="cover">
         <div class="container">
             <div class="cover__row">
-                <div class="cover__background-image"></div>
                 <h1 class="cover__title">
                     Кубок мира по шахматам
                     <strong>2019</strong>
@@ -173,44 +173,38 @@
                     </div>
                     <div class="cover__place">Ханты-Мансийск</div>
                 </div>
-                <div class="background-image-1"></div>
-                <div class="background-image-2"></div>
-
+                <div class="cover__background-white"></div>
+                <div class="cover__background-image-1"></div>
+                <div class="cover__background-image-2"></div>
             </div>
-        </div>
-        <div class="cover__background-apply"></div>
-        <div class="cover__item">
-            <div class="container">
-                <div class="cover__info">
-                    <button class="cover__registration">Регистрация</button>
-                </div>
-                <div class="cover__row-description">
-                    <div class="cover__social-media">
-                        <a href="twitter.com" class="link">
-                            <img src="assets/img/coverSocialMedia/twitter.png" alt="Twitter">
-                        </a>
-                        <a href="instagram.com" class="link">
-                            <img src="assets/img/coverSocialMedia/insta.png" alt="Instagram">
-                        </a>
-                        <a href="facebook.com" class="link">
-                            <img src="assets/img/coverSocialMedia/fc.png" alt="Facebook">
-                        </a>
-                    </div>
-                    <div class="cover__date">
-                        <div class="cover__date-start">
-                            9
-                            <strong>сентября</strong>
+            <div class="cover__row">
+                <div class="cover__background-apply"></div>
+                <button class="cover__registration">Регистрация</button>
+                        <div class="cover__social-media">
+                            <a href="twitter.com" class="link">
+                                <img src="assets/img/coverSocialMedia/twitter.png" alt="Twitter">
+                            </a>
+                            <a href="instagram.com" class="link">
+                                <img src="assets/img/coverSocialMedia/insta.png" alt="Instagram">
+                            </a>
+                            <a href="facebook.com" class="link">
+                                <img src="assets/img/coverSocialMedia/fc.png" alt="Facebook">
+                            </a>
                         </div>
-                        <div class="cover__line">
-                            <img src="assets/img/coverLine/Rectangle.svg">
+                        <div class="cover__date">
+                            <div class="cover__date-start">
+                                9
+                                <strong>сентября</strong>
+                            </div>
+                            <div class="cover__line">
+                                <img src="assets/img/coverLine/Rectangle.svg">
+                            </div>
+                            <div class="cover__date-ending">
+                                4
+                                <strong>октября</strong>
+                            </div>
+                            <div class="cover__place">Ханты-Мансийск</div>
                         </div>
-                        <div class="cover__date-ending">
-                            4
-                            <strong>октября</strong>
-                        </div>
-                        <div class="cover__place">Ханты-Мансийск</div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -337,12 +331,12 @@
         </div>
     </div>
     <div class="container">
-    <div class="content__background-image-3"></div>
-    <div class="content__background-image-4"></div>
-    <div class="content__background-image-5"></div>
-    <div class="content__background-image-6"></div>
-    <div class="content__background-image-7"></div>
-        </div>
+        <div class="content__background-image-3"></div>
+        <div class="content__background-image-4"></div>
+        <div class="content__background-image-5"></div>
+        <div class="content__background-image-6"></div>
+        <div class="content__background-image-7"></div>
+    </div>
 </section>
 <footer class="footer">
     <div class="container">

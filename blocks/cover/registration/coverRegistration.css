@@ -3,13 +3,14 @@
     border: 0;
     border-radius: 4px;
     box-shadow: 0 34px 24px 0 rgba(88, 121, 34, 0.24);
-    width: 328px;
+    min-width: 328px;
     height: 69px;
-    margin: 50px 149px 0 0;
+    margin: 50px 209px 56px 0;
     font-family: 'Montserrat', sans-serif;
     color: #C2DA6B;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
     cursor: pointer;
+    z-index: 1;
 }

@@ -2,8 +2,8 @@
     background: #ffffff;
     width: 737px;
     height: 175px;
-    position: relative;
-    float: left;
+    position: absolute;
+    margin-left: -251px;
 }
 
 @media(max-width: 1500px) {
