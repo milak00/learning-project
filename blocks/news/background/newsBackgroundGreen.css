@@ -4,11 +4,11 @@
     height: 209px;
     position: absolute;
     z-index: -1;
-    top: 875px;
-    right: 0;
+    margin-top: -150px;
+    margin-left: 1199px;
 }
 
-@media(max-width: 1500px) {
+@media(max-width: 1919px) {
     .news__background_green {
         display: none;
     }

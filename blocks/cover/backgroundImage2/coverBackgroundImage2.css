@@ -2,23 +2,20 @@
     background: url(../../../assets/img/backgrondImage2/image.png);
     width: 692px;
     height: 638px;
-    right: 0;
+    right: -125px;
     z-index: 1;
-    margin-right: -125px;
     position: absolute;
+
 }
 
-@media(max-width: 1550px) {
+@media(max-width: 1919px) {
     .cover__background-image-2 {
-        left: auto;
-        right: 0;
-        width: 460px;
+        right: -270px;
     }
 }
 
 @media(max-width: 1120px) {
     .cover__background-image-2 {
-        width: 295px;
     }
 }
 

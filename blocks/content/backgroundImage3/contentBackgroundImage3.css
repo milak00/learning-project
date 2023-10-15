@@ -3,22 +3,27 @@
     width: 480px;
     height: 573px;
     position: absolute;
-    right: 151px;
-    top: 928px;
+    top: 784px;
+    margin-left: 1033px;
+    z-index: -1;
+}
+
+@media(max-width: 1919px) {
+    .content__background-image-3 {
+        margin-left: 0;
+        right: -45px;
+    }
 }
 
 @media(max-width: 1500px) {
     .content__background-image-3 {
-        right: 0;
-        top: 851px;
-        width: 430px;
+        top: 657px;
     }
 }
 
 @media(max-width: 1120px) {
     .content__background-image-3 {
         right: 0;
-        top: 851px;
         width: 271px;
     }
 }

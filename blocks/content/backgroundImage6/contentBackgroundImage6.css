@@ -4,15 +4,15 @@
     height: 591px;
     position: absolute;
     top: 2576px;
-    right: 0;
+    z-index: -1;
+    margin-left: 1391px;
 }
 
-@media(max-width: 1500px) {
+@media(max-width: 1919px) {
     .content__background-image-6 {
-        z-index: -1;
         right: 0;
+        margin-left: 0;
         width: 215px;
-        top: 2449px;
     }
 }
 

@@ -6,7 +6,7 @@
     margin-bottom: 70px;
 }
 
-.news__title strong {
+.news__title span {
     word-spacing: 15px;
     color: #333333;
     font-size: 58px;

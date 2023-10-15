@@ -9,7 +9,7 @@
     margin-right: -251px;
 }
 
-@media(max-width: 1710px) {
+@media(max-width: 1919px) {
     .header__background-item {
         display: none;
     }

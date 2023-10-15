@@ -4,7 +4,7 @@
     height: 231px;
     position: absolute;
     top: 1875px;
-    left: 136px;
+    margin-left: -260px;
 }
 
 @media(max-width: 1500px) {

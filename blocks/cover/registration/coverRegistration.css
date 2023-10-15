@@ -14,3 +14,9 @@
     cursor: pointer;
     z-index: 1;
 }
+
+@media(max-width: 1500px) {
+    .cover__registration {
+        margin: 32px 209px 32px 0;
+    }
+}

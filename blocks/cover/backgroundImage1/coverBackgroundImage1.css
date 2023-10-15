@@ -8,11 +8,9 @@
     z-index: 0;
 }
 
-@media(max-width: 1660px) {
+@media(max-width: 1500px) {
     .cover__background-image-1 {
-        left: auto;
-        right: 0;
-        width: 678px;
+        right: -73px;
     }
 }
 

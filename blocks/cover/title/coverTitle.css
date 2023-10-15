@@ -12,7 +12,7 @@
     margin-bottom: 118px;
 }
 
-.cover__title strong {
+.cover__title span {
     font-size: 78px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
@@ -22,12 +22,12 @@
     .cover__title {
         font-size: 67px;
         line-height: 90px;
-        width: 620px;
+        width: 600px;
         padding: 47px 0 0 0;
         margin-bottom: 25px;
     }
 
-    .cover__title strong {
+    .cover__title span {
         font-size: 57px;
         line-height: 80px;
     }

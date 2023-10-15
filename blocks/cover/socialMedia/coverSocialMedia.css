@@ -1,6 +1,6 @@
 .cover__social-media {
     display: flex;
     justify-content: space-between;
-    margin-top: 85px;
     width: 148px;
+    align-items: center;
 }

@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="blocks/cover/dateMobile/coverDateMobile.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/registration/coverRegistration.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/row/coverRow.css">
+    <link rel="stylesheet" type="text/css" href="blocks/cover/row/coverRowDirectionColumn.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/line/coverLine.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/rowDescription/coverRowDescription.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/dateEnding/coverDateEnding.css">
@@ -154,22 +155,22 @@
 <section class="content">
     <div class="cover">
         <div class="container">
-            <div class="cover__row">
+            <div class="cover__row cover__row_direction_column">
                 <h1 class="cover__title">
                     Кубок мира по шахматам
-                    <strong>2019</strong>
+                    <span>2019</span>
                 </h1>
                 <div class="cover__date-mobile">
                     <div class="cover__date-start">
                         9
-                        <strong>сентября</strong>
+                        <span>сентября</span>
                     </div>
                     <div class="cover__line">
                         <img src="assets/img/coverLine/Rectangle.svg">
                     </div>
                     <div class="cover__date-ending">
                         4
-                        <strong>октября</strong>
+                        <span>октября</span>
                     </div>
                     <div class="cover__place">Ханты-Мансийск</div>
                 </div>
@@ -180,41 +181,41 @@
             <div class="cover__row">
                 <div class="cover__background-apply"></div>
                 <button class="cover__registration">Регистрация</button>
-                        <div class="cover__social-media">
-                            <a href="twitter.com" class="link">
-                                <img src="assets/img/coverSocialMedia/twitter.png" alt="Twitter">
-                            </a>
-                            <a href="instagram.com" class="link">
-                                <img src="assets/img/coverSocialMedia/insta.png" alt="Instagram">
-                            </a>
-                            <a href="facebook.com" class="link">
-                                <img src="assets/img/coverSocialMedia/fc.png" alt="Facebook">
-                            </a>
-                        </div>
-                        <div class="cover__date">
-                            <div class="cover__date-start">
-                                9
-                                <strong>сентября</strong>
-                            </div>
-                            <div class="cover__line">
-                                <img src="assets/img/coverLine/Rectangle.svg">
-                            </div>
-                            <div class="cover__date-ending">
-                                4
-                                <strong>октября</strong>
-                            </div>
-                            <div class="cover__place">Ханты-Мансийск</div>
-                        </div>
+                <div class="cover__social-media">
+                    <a href="twitter.com" class="link">
+                        <img src="assets/img/coverSocialMedia/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="instagram.com" class="link">
+                        <img src="assets/img/coverSocialMedia/insta.png" alt="Instagram">
+                    </a>
+                    <a href="facebook.com" class="link">
+                        <img src="assets/img/coverSocialMedia/fc.png" alt="Facebook">
+                    </a>
+                </div>
+                <div class="cover__date">
+                    <div class="cover__date-start">
+                        9
+                        <span>сентября</span>
+                    </div>
+                    <div class="cover__line">
+                        <img src="assets/img/coverLine/Rectangle.svg">
+                    </div>
+                    <div class="cover__date-ending">
+                        4
+                        <span>октября</span>
+                    </div>
+                    <div class="cover__place">Ханты-Мансийск</div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="news">
-        <div class="container">
+    <div class="container">
+        <div class="news">
             <div class="news__background news__background_gray"></div>
             <div class="news__background news__background_green"></div>
             <h2 class="title news__title">
                 Новости
-                <strong>турнира</strong>
+                <span>турнира</span>
             </h2>
             <div class="news__cards">
                 <div class="news__post">
@@ -294,9 +295,7 @@
                 <button>Показать еще</button>
             </div>
         </div>
-    </div>
-    <div class="partners">
-        <div class="container">
+        <div class="partners">
             <h2 class="title partners__title">Партнеры</h2>
             <div class="partners__owl-carousel">
                 <div class="partners__controls">
@@ -329,13 +328,11 @@
                 <div class="partners__scroll-bar"></div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="content__background-image-3"></div>
-        <div class="content__background-image-4"></div>
-        <div class="content__background-image-5"></div>
-        <div class="content__background-image-6"></div>
-        <div class="content__background-image-7"></div>
+            <div class="content__background-image-3"></div>
+            <div class="content__background-image-4"></div>
+            <div class="content__background-image-5"></div>
+            <div class="content__background-image-6"></div>
+            <div class="content__background-image-7"></div>
     </div>
 </section>
 <footer class="footer">
@@ -375,25 +372,26 @@
                 </div>
             </div>
         </div>
+
+        <nav class="footer__menu-mobile">
+            <div class="footer__menu-mobile-list">
+                <a href="#" class="link footer__menu-item">На главную</a>
+                <a href="#" class="link footer__menu-item">Основная информация</a>
+                <a href="#" class="link footer__menu-item">Участники</a>
+                <a href="#" class="link footer__menu-item">Прямая трансляция</a>
+                <a href="#" class="link footer__menu-item">Турнирная сетка</a>
+                <a href="#" class="link footer__menu-item">Таблица результатов</a>
+                <a href="#" class="link footer__menu-item">Фото/Видео</a>
+                <a href="#" class="link footer__menu-item">Контакты</a>
+            </div>
+        </nav>
+        <a class="link footer__btn-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="24" viewBox="0 0 42 24" fill="none">
+                <path d="M38 20L21 4L4 20" stroke="#F0F0F0" stroke-width="7" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </a>
     </div>
-    <nav class="footer__menu-mobile">
-        <div class="footer__menu-mobile-list">
-            <a href="#" class="link footer__menu-item">На главную</a>
-            <a href="#" class="link footer__menu-item">Основная информация</a>
-            <a href="#" class="link footer__menu-item">Участники</a>
-            <a href="#" class="link footer__menu-item">Прямая трансляция</a>
-            <a href="#" class="link footer__menu-item">Турнирная сетка</a>
-            <a href="#" class="link footer__menu-item">Таблица результатов</a>
-            <a href="#" class="link footer__menu-item">Фото/Видео</a>
-            <a href="#" class="link footer__menu-item">Контакты</a>
-        </div>
-    </nav>
-    <a class="link footer__btn-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="24" viewBox="0 0 42 24" fill="none">
-            <path d="M38 20L21 4L4 20" stroke="#F0F0F0" stroke-width="7" stroke-linecap="round"
-                  stroke-linejoin="round"/>
-        </svg>
-    </a>
     <div class="link footer__website-development">Разработка — Югорские Интернет Решения</div>
 </footer>
 </body>

@@ -1,11 +1,13 @@
 .news {
     border-bottom: 1px solid #F0F0F0;
     margin-bottom: 85px;
+    position: relative;
 }
 
 
 @media(max-width: 1500px) {
     .news {
         border-bottom: none;
+        margin-bottom: 176px;
     }
 }

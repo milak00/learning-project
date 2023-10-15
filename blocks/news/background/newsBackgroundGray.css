@@ -4,14 +4,11 @@
     height: 333px;
     position: absolute;
     z-index: -1;
-    top: 875px;
-    left: 124px;
+    margin: -150px 0 0 -127px;
 }
 
 @media(max-width: 1500px) {
     .news__background_gray {
-        left: 0;
-        width: 520px;
-        top: 800px;
+
     }
 }
