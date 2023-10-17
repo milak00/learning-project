@@ -10,18 +10,7 @@
 
 @media(max-width: 1919px) {
     .cover__background-image-2 {
-        right: -270px;
+        right: -450px;
     }
 }
 
-@media(max-width: 1120px) {
-    .cover__background-image-2 {
-    }
-}
-
-@media(max-width: 991px) {
-    .cover__background-image-2 {
-        top: 333px;
-        width: 384px;
-    }
-}

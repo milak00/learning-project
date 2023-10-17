@@ -4,9 +4,3 @@
     justify-content: space-between;
     margin: 0 47px 0 0;
 }
-
-@media(max-width: 1120px) {
-    .header__languages {
-        margin: 0 -50px 0 0;
-    }
-}

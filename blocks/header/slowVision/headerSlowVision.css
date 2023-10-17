@@ -2,4 +2,11 @@
     background: url(../../../assets/img/slowVision/icon.png) no-repeat;
     width: 38px;
     height: 15px;
+    margin: 0 auto 0 0;
+}
+
+@media(max-width: 1199px) {
+    .header__slow-vision {
+        margin: 0 99px 0 0;
+    }
 }

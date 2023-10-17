@@ -3,13 +3,14 @@
     width: 480px;
     height: 573px;
     position: absolute;
-    top: 784px;
+    top: 928px;
     margin-left: 1033px;
     z-index: -1;
 }
 
-@media(max-width: 1919px) {
+@media(max-width: 1500px) {
     .content__background-image-3 {
+        top: 801px;
         margin-left: 0;
         right: -45px;
     }
@@ -17,7 +18,6 @@
 
 @media(max-width: 1500px) {
     .content__background-image-3 {
-        top: 657px;
     }
 }
 

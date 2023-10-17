@@ -5,13 +5,11 @@
     position: absolute;
     top: 2576px;
     z-index: -1;
-    margin-left: 1391px;
+    right: 0;
 }
 
 @media(max-width: 1919px) {
     .content__background-image-6 {
-        right: 0;
-        margin-left: 0;
         width: 215px;
     }
 }

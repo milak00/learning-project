@@ -11,8 +11,3 @@
         width: 202px;
     }
 }
-@media(max-width: 1120px) {
-    .header__logo {
-        margin: 0 0 0 0;
-    }
-}

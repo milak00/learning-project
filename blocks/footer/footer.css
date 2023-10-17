@@ -1,12 +1,17 @@
 .footer {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
     width: 100%;
     background: #333333;
-    padding: 53px 0 0 0;
+    padding: 53px 260px;
 }
 
-@media(max-width: 1500px) {
+
+@media(max-width: 1919px) {
     .footer {
-        position: static;
+        padding: 53px 45px;
     }
 }

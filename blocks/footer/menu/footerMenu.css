@@ -5,9 +5,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    margin: 0 auto 0 0;
 }
 
-@media(max-width: 1120px) {
+@media(min-width: 2525px) {
+    .footer__menu {
+        width: 1400px;
+    }
+}
+
+@media(max-width: 1199px) {
     .footer__menu {
         display: none;
         width: auto;

@@ -1,20 +1,27 @@
 .header__menu {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 600px;
     height: 58px;
     flex-wrap: wrap;
-    margin: 0 82px 0 0;
+    margin: 0 auto 0 0;
+    align-items: baseline;
+}
+
+@media(min-width: 2525px) {
+    .header__menu {
+        width: 1400px;
+    }
 }
 
 @media(max-width: 1500px) {
     .header__menu {
         width: 506px;
-        margin-right: 22px;
     }
 }
-@media(max-width: 1120px) {
+@media(max-width: 1199px) {
     .header__menu {
         display: none;
     }

@@ -1,7 +1,7 @@
 .footer__menu-mobile-list {
     display: none;
 }
-@media(max-width: 1120px) {
+@media(max-width: 1199px) {
     .footer__menu-mobile-list {
         display: flex;
         align-items: center;

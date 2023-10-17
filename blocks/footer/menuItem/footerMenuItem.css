@@ -8,6 +8,12 @@
     width: 178px;
 }
 
+@media(min-width: 2525px) {
+    .footer__menu-item {
+        width: auto;
+    }
+}
+
 @media (max-width: 1120px) {
     .footer__menu-item {
         font-size: 14px;

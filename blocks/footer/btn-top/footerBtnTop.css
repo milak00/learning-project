@@ -10,8 +10,9 @@
 }
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1919px) {
     .footer__btn-top {
         top: auto;
+        bottom: -25px;
     }
 }

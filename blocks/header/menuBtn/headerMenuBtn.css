@@ -3,7 +3,7 @@
     display: none;
 }
 
-@media(max-width: 1120px) {
+@media(max-width: 1199px) {
     .header__menu-btn {
         display: flex;
         flex-direction: column;
