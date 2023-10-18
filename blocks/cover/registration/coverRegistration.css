@@ -20,3 +20,9 @@
         margin: 32px 209px 32px 0;
     }
 }
+
+@media(max-width: 991px) {
+    .cover__registration {
+        margin: 20px 209px 63px 0;
+    }
+}

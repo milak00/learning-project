@@ -3,3 +3,11 @@
     height: 430px;
     margin-right: 48px;
 }
+
+@media(max-width: 991px) {
+    .news__image img {
+        width: 330px;
+        height: 330px;
+    }
+
+}

@@ -10,3 +10,9 @@
         margin: 0 99px 0 0;
     }
 }
+
+@media(max-width: 991px) {
+    .header__slow-vision {
+        margin: 0 auto 0 0;
+    }
+}

@@ -4,3 +4,9 @@
     width: 148px;
     align-items: center;
 }
+
+@media(max-width: 991px) {
+    .cover__social-media {
+        display: none;
+    }
+}

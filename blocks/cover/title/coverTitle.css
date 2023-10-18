@@ -32,6 +32,22 @@
         line-height: 80px;
     }
 }
+@media(max-width: 991px) {
+    .cover__title {
+        font-size: 73px;
+        line-height: 90px;
+        width: 650px;
+        padding: 47px 0 0 0;
+        margin-bottom: 25px;
+    }
+
+    .cover__title span {
+        font-size: 67px;
+        line-height: 90px;
+    }
+}
+
+
 
 
 

@@ -9,3 +9,13 @@
         margin: 0 27px 0 27px;
     }
 }
+
+@media(max-width: 991px) {
+    .cover__line {
+        margin: 10px 27px 0 27px;
+    }
+
+    .cover__line img {
+        width: 29px;
+    }
+}

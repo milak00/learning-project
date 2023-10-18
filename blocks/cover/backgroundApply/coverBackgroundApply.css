@@ -11,3 +11,9 @@
         height: 133px;
     }
 }
+
+@media(max-width: 991px) {
+    .cover__background-apply {
+        display: none;
+    }
+}

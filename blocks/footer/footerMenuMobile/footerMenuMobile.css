@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media(max-width: 1199px) {
+@media(max-width: 1120px) {
     .footer__menu-mobile {
         display: block;
     }

@@ -14,3 +14,10 @@
     }
 }
 
+@media(max-width: 991px) {
+    .cover__background-image-2 {
+        top: 189px;
+        right: -340px;
+    }
+}
+

@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     box-sizing: border-box;
     width: 100%;
     background: #333333;
@@ -13,5 +13,11 @@
 @media(max-width: 1919px) {
     .footer {
         padding: 53px 45px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .footer {
+        flex-wrap: wrap;
     }
 }

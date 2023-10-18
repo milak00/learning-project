@@ -1,0 +1,13 @@
+.content__social-media-mobile {
+    display: none;
+}
+
+@media(max-width: 991px) {
+    .content__social-media-mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 148px;
+        align-items: center;
+        margin-bottom: 82px;
+    }
+}

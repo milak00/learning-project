@@ -16,3 +16,11 @@
         margin-bottom: 70px;
     }
 }
+
+@media (max-width: 991px) {
+    .news__post {
+        width: 690px;
+        height: 338px;
+        overflow: hidden;
+    }
+}

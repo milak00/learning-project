@@ -4,6 +4,8 @@
 
 }
 
-@media(max-width: 1500px) {
-
+@media(max-width: 991px) {
+    .cover {
+        margin-bottom: 40px;
+    }
 }

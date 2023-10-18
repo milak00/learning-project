@@ -14,16 +14,16 @@
     }
 }
 
-@media(max-width: 1120px) {
+@media(max-width: 1199px) {
     .cover__background-image-1 {
         background: url(../../../assets/img/backgrondImage1/checkerboard-mobile.png) no-repeat;
-        width: 490px;
+        right: -310px;
     }
 }
 
 @media(max-width: 991px) {
     .cover__background-image-1 {
         background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
-        width: 250px;
+        right: -480px;
     }
 }
