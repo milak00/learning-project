@@ -25,3 +25,10 @@
         padding: 38px 39px;
     }
 }
+
+@media(max-width: 575px) {
+    .header {
+        padding: 38px 15px;
+    }
+
+}

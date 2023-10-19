@@ -3,3 +3,8 @@
     margin: 0 auto 0 0;
 }
 
+@media(max-width: 575px) {
+    .header__partner-logos {
+        display: none;
+    }
+}

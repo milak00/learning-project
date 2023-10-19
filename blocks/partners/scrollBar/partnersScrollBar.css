@@ -3,3 +3,9 @@
     border-bottom: 9px solid #A2CC5C;
     cursor: pointer;
 }
+
+@media(max-width: 575px) {
+    .partners__scroll-bar {
+        width: 89px;
+    }
+}

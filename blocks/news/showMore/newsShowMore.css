@@ -21,3 +21,9 @@
     line-height: normal;
     cursor: pointer;
 }
+
+@media(max-width: 575px) {
+    .news__show-more {
+        margin-bottom: 70px;
+    }
+}

@@ -12,3 +12,10 @@
     }
 }
 
+@media(max-width: 1199px) {
+    .news {
+        border-bottom: 1px solid #F0F0F0;
+        margin-bottom: 60px;
+    }
+}
+

@@ -27,3 +27,10 @@
         justify-content: center;
     }
 }
+
+@media(max-width: 575px) {
+    .footer {
+        padding: 38px 15px;
+    }
+
+}

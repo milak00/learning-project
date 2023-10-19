@@ -10,7 +10,7 @@
     letter-spacing: 5px;
 }
 
-@media(max-width: 1500px) {
+@media (max-width: 1500px) {
     .cover__date-start {
         font-size: 38px;
     }
@@ -20,12 +20,22 @@
     }
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
     .cover__date-start {
         font-size: 34px;
     }
 
     .cover__date-start span {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .cover__date-start {
+        font-size: 24px;
+    }
+
+    .cover__date-start span {
+        font-size: 16px;
     }
 }

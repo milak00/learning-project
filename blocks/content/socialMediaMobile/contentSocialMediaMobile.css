@@ -17,3 +17,9 @@
         margin: 0 auto 82px auto;
     }
 }
+
+@media(max-width: 575px) {
+    .content__social-media-mobile {
+        margin: 0 auto 60px auto;
+    }
+}

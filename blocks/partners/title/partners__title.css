@@ -13,3 +13,12 @@
         margin: 25px 55px 0 5px;
     }
 }
+
+@media(max-width: 575px) {
+    .partners__title {
+        background: #C2DA6B;
+        padding-bottom: 0;
+        height: 34px;
+        margin: 10px 0 0 30px;
+    }
+}

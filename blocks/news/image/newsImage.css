@@ -23,3 +23,16 @@
         margin-bottom: 12px;
     }
 }
+
+@media(max-width: 575px) {
+    .news__image img {
+        width: 344px;
+        height: auto;
+    }
+
+    .news__image {
+        width: 344px;
+        height: auto;
+        margin: 0 auto 12px auto;
+    }
+}

@@ -37,3 +37,14 @@
         font-size: 50px;
     }
 }
+
+@media(max-width: 575px) {
+    .title {
+        font-size: 34px;
+        margin-bottom: 37px;
+    }
+
+    .title span {
+        font-size: 34px;
+    }
+}

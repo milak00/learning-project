@@ -16,3 +16,9 @@
         bottom: -25px;
     }
 }
+
+@media (max-width: 1199px) {
+    .footer__btn-top {
+        display: none;
+    }
+}

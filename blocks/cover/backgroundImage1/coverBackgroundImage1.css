@@ -34,3 +34,9 @@
         right: -630px;
     }
 }
+
+@media(max-width: 575px) {
+    .cover__background-image-1 {
+        display: none;
+    }
+}

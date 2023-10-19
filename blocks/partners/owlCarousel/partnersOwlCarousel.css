@@ -7,3 +7,9 @@
         margin-top: 0;
     }
 }
+
+@media(max-width: 575px) {
+    .partners__owl-carousel {
+        margin-top: 58px;
+    }
+}

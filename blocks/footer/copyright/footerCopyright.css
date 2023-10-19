@@ -15,3 +15,11 @@
     }
 
 }
+
+@media (max-width: 575px) {
+    .footer__copyright {
+        width: 344px;
+        text-align: center;
+    }
+
+}

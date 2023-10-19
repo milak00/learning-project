@@ -17,3 +17,11 @@
     }
 }
 
+@media(max-width: 575px) {
+    .news__title  {
+        left: auto;
+        height: 34px;
+        margin: 10px 110px 0 0;
+    }
+}
+

@@ -19,3 +19,14 @@
         width: 29px;
     }
 }
+
+@media (max-width: 575px) {
+    .cover__line {
+        width: 19px;
+        margin: 10px 27px 0 27px;
+    }
+
+    .cover__line img {
+
+    }
+}
