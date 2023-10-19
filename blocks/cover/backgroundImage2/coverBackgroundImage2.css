@@ -21,3 +21,9 @@
     }
 }
 
+@media(max-width: 767px) {
+    .cover__background-image-2 {
+        display: none;
+    }
+}
+

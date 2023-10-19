@@ -11,3 +11,9 @@
         margin-bottom: 82px;
     }
 }
+
+@media(max-width: 767px) {
+    .content__social-media-mobile {
+        margin: 0 auto 82px auto;
+    }
+}

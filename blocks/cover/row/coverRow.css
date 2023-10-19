@@ -2,3 +2,9 @@
     display: flex;
     position: relative;
 }
+
+@media(max-width: 767px) {
+    .cover__row {
+        align-items: center;
+    }
+}

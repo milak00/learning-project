@@ -2,6 +2,7 @@
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    letter-spacing: 3px;
     font-weight: 700;
     font-size: 87px;
     line-height: 110px;
@@ -44,6 +45,22 @@
     .cover__title span {
         font-size: 67px;
         line-height: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__title {
+        text-align: center;
+        font-size: 56px;
+        line-height: 70px;
+        width: 500px;
+        padding: 90px 0 0 0;
+        margin-bottom: 25px;
+    }
+
+    .cover__title span {
+        font-size: 50px;
+        line-height: 70px;
     }
 }
 

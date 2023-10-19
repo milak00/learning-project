@@ -10,7 +10,6 @@
 
 @media(max-width: 1500px) {
     .content__background-image-3 {
-        top: 801px;
         margin-left: 0;
         right: -45px;
     }
@@ -33,3 +32,4 @@
         display: none;
     }
 }
+

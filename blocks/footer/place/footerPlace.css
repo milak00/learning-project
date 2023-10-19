@@ -7,3 +7,10 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+@media(max-width: 767px) {
+    .footer__place {
+        text-align: center;
+    }
+
+}

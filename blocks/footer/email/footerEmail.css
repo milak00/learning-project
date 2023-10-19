@@ -7,3 +7,9 @@
     line-height: normal;
     margin-bottom: 42px;
 }
+
+@media(max-width: 767px) {
+    .footer__email {
+        margin-bottom: 13px;
+    }
+}

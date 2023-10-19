@@ -21,3 +21,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media(max-width: 767px) {
+    .footer {
+        justify-content: center;
+    }
+}

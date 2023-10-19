@@ -5,3 +5,9 @@
     border-top: 1px solid #A2CC5C;
     margin-right: 30px;
 }
+
+@media(max-width: 767px) {
+    .news__line {
+        display: none;
+    }
+}

@@ -7,3 +7,10 @@
         display: block;
     }
 }
+
+@media(max-width: 767px) {
+    .footer__menu-mobile {
+        display: block;
+        order: 1;
+    }
+}

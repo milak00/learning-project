@@ -26,3 +26,9 @@
         margin: 20px 209px 63px 0;
     }
 }
+
+@media(max-width: 767px) {
+    .cover__registration {
+        margin: 10px auto 63px auto;
+    }
+}

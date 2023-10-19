@@ -4,3 +4,10 @@
     height: 25px;
     margin-bottom: 110px;
 }
+
+@media(max-width: 767px) {
+    .partners__controls {
+        display: none;
+    }
+
+}

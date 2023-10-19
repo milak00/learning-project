@@ -11,3 +11,9 @@
         width: 100%;
     }
 }
+
+@media(max-width: 767px) {
+    .footer__menu-mobile-list {
+        margin-bottom: 70px;
+    }
+}

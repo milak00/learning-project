@@ -9,3 +9,9 @@
     line-height: 24px;
     margin-bottom: 38px;
 }
+
+@media(max-width: 767px) {
+    .news__date {
+        margin-bottom: 18px;
+    }
+}

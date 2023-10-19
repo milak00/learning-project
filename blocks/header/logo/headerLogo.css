@@ -11,3 +11,9 @@
         width: 202px;
     }
 }
+
+@media(max-width: 767px) {
+    .header__logo {
+        margin: 0 auto 0 0;
+    }
+}

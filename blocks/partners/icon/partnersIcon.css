@@ -1,5 +1,24 @@
 .partners__icon {
     height: 106px;
     text-align: center;
+    margin-right: 105px;
 }
 
+
+@media(max-width: 1500px) {
+    .partners__icon {
+        margin-right: 80px;
+    }
+}
+
+@media(max-width: 991px) {
+    .partners__icon {
+        margin-right: 66px;
+    }
+}
+
+@media(max-width: 767px) {
+    .partners__icon {
+        margin-right: 59px;
+    }
+}

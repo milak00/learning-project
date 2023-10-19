@@ -2,3 +2,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media(max-width: 767px) {
+    .footer__contacts {
+        align-items: center;
+        order: 2;
+        margin-bottom: 32px;
+    }
+}

@@ -1,6 +1,15 @@
 .partners__title {
+    position: absolute;
     background: #A2CC5C;
     width: 215px;
     height: 43px;
     padding-bottom: 20px;
+    margin: 25px 0 0 5px;
+    z-index: -1;
+}
+
+@media(max-width: 767px) {
+    .partners__title {
+        margin: 25px 55px 0 5px;
+    }
 }

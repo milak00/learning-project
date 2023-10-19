@@ -16,3 +16,10 @@
         margin: 0 auto 0 0;
     }
 }
+
+@media(max-width: 767px) {
+    .header__slow-vision {
+        display: none;
+    }
+}
+

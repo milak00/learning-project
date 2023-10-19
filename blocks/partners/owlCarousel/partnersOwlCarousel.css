@@ -1,3 +1,9 @@
 .partners__owl-carousel {
     margin-top: -60px;
 }
+
+@media(max-width: 767px) {
+    .partners__owl-carousel {
+        margin-top: 0;
+    }
+}

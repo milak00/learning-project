@@ -27,3 +27,10 @@
         right: -480px;
     }
 }
+
+@media(max-width: 767px) {
+    .cover__background-image-1 {
+        background: url(../../../assets/img/backgrondImage1/checkerboard.png) no-repeat;
+        right: -630px;
+    }
+}

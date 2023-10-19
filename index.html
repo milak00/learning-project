@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css" href="blocks/header/languages/headerLanguages.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/cover.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/socialMedia/coverSocialMedia.css">
-    <link rel="stylesheet" type="text/css" href="blocks/content/socialMediaMobile/coverSocialMediaMobile.css">
+    <link rel="stylesheet" type="text/css" href="blocks/content/socialMediaMobile/contentSocialMediaMobile.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/item/coverItem.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/place/coverPlace.css">
     <link rel="stylesheet" type="text/css" href="blocks/cover/date/coverDate.css">
@@ -103,40 +103,40 @@
             <img src="assets/img/partnerLogo/logo_2.png" alt="logo_2">
         </a>
     </div>
-        <ul class="header__menu" role="navigation">
-            <li class="header__menu-item"><a href="#" class="link">Прямая трансляция</a></li>
-            <li class="header__menu-item"><a href="#" class="link">Ханты-Мансийск</a>
-                <ul class="header__dropdown">
-                    <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
-                </ul>
-            </li>
-            <li class="header__menu-item"><a href="#" class="link">Новости</a>
-                <ul class="header__dropdown">
-                    <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
-                </ul>
-            </li>
-            <li class="header__menu-item"><a href="#" class="link">Участники</a></li>
-            <li class="header__menu-item"><a href="#" class="link">Основная информация</a>
-                <ul class="header__dropdown">
-                    <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
-                </ul>
-            </li>
-            <li class="header__menu-item"><a href="#" class="link">Результаты</a></li>
-            <li class="header__menu-item"><a href="#" class="link">Медиа</a></li>
-            <li class="header__menu-item"><a href="#" class="link">Контакты</a>
-                <ul class="header__dropdown">
-                    <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
-                    <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
-                </ul>
-            </li>
-        </ul>
+    <ul class="header__menu" role="navigation">
+        <li class="header__menu-item"><a href="#" class="link">Прямая трансляция</a></li>
+        <li class="header__menu-item"><a href="#" class="link">Ханты-Мансийск</a>
+            <ul class="header__dropdown">
+                <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
+            </ul>
+        </li>
+        <li class="header__menu-item"><a href="#" class="link">Новости</a>
+            <ul class="header__dropdown">
+                <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
+            </ul>
+        </li>
+        <li class="header__menu-item"><a href="#" class="link">Участники</a></li>
+        <li class="header__menu-item"><a href="#" class="link">Основная информация</a>
+            <ul class="header__dropdown">
+                <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
+            </ul>
+        </li>
+        <li class="header__menu-item"><a href="#" class="link">Результаты</a></li>
+        <li class="header__menu-item"><a href="#" class="link">Медиа</a></li>
+        <li class="header__menu-item"><a href="#" class="link">Контакты</a>
+            <ul class="header__dropdown">
+                <li class="header__dropdown-item"><a class="link" href="#">О Ханты-Мансийске</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">История кубка мира</a></li>
+                <li class="header__dropdown-item"><a class="link" href="#">Информация для участников</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="header__languages">
         <a href="#" class="link header__language-item link_active_green">Ru</a>
         <a href="#" class="link header__language-item">En</a>
@@ -221,7 +221,8 @@
         <div class="news">
             <div class="news__background news__background_gray"></div>
             <div class="news__background news__background_green"></div>
-            <h2 class="title news__title">
+            <h2 class="title">
+                <div class="news__title"></div>
                 Новости
                 <span>турнира</span>
             </h2>
@@ -304,7 +305,10 @@
             </div>
         </div>
         <div class="partners">
-            <h2 class="title partners__title">Партнеры</h2>
+            <h2 class="title">
+                <div class="partners__title"></div>
+                Партнеры
+            </h2>
             <div class="partners__owl-carousel">
                 <div class="partners__controls">
                     <div class="partners__back"></div>
@@ -344,56 +348,56 @@
     </div>
 </section>
 <footer class="footer">
-        <div class="footer__column">
-                <div class="footer__row">
-                    <div class="footer__logo"></div>
-                    <div class="partners footer__partners">
-                        <a href="/" class="footer__partner-logo">
-                            <img src="assets/img/footerPartners/image1.png" alt="image1">
-                        </a>
-                        <a href="/" class="footer__partner-logo">
-                            <img src="assets/img/footerPartners/image2.png" alt="image2">
-                        </a>
-                        <a href="/" class="footer__partner-logo">
-                            <img src="assets/img/footerPartners/image3.png" alt="image3">
-                        </a>
-                    </div>
-                </div>
-                <div class="footer__copyright">Копирование информации, допускается, только с указанием активной ссылки
-                    на сайт
-                </div>
+    <div class="footer__column">
+        <div class="footer__row">
+            <div class="footer__logo"></div>
+            <div class="partners footer__partners">
+                <a href="/" class="footer__partner-logo">
+                    <img src="assets/img/footerPartners/image1.png" alt="image1">
+                </a>
+                <a href="/" class="footer__partner-logo">
+                    <img src="assets/img/footerPartners/image2.png" alt="image2">
+                </a>
+                <a href="/" class="footer__partner-logo">
+                    <img src="assets/img/footerPartners/image3.png" alt="image3">
+                </a>
             </div>
-            <nav class="footer__menu">
-                <a href="#" class="link footer__menu-item">На главную</a>
-                <a href="#" class="link footer__menu-item">История кубка мира</a>
-                <a href="#" class="link footer__menu-item">О Ханты-Мансийске</a>
-                <a href="#" class="link footer__menu-item">Контакты</a>
-                <a href="#" class="link footer__menu-item">Информация для участников</a>
-            </nav>
-                <div class="footer__contacts">
-                    <a href="tel:+7 (3467) 555-321" class="link footer__tel">+7 (3467) 555-321</a>
-                    <a href="mailto:mail@mail.ru" class="link footer__email">mail@mail.ru</a>
-                    <div class="footer__place">Ханты-Мансийск Лопарева, 6</div>
-                </div>
+        </div>
+        <div class="footer__copyright">Копирование информации, допускается, только с указанием активной ссылки
+            на сайт
+        </div>
+    </div>
+    <nav class="footer__menu">
+        <a href="#" class="link footer__menu-item">На главную</a>
+        <a href="#" class="link footer__menu-item">История кубка мира</a>
+        <a href="#" class="link footer__menu-item">О Ханты-Мансийске</a>
+        <a href="#" class="link footer__menu-item">Контакты</a>
+        <a href="#" class="link footer__menu-item">Информация для участников</a>
+    </nav>
+    <div class="footer__contacts">
+        <a href="tel:+7 (3467) 555-321" class="link footer__tel">+7 (3467) 555-321</a>
+        <a href="mailto:mail@mail.ru" class="link footer__email">mail@mail.ru</a>
+        <div class="footer__place">Ханты-Мансийск Лопарева, 6</div>
+    </div>
 
-        <nav class="footer__menu-mobile">
-            <div class="footer__menu-mobile-list">
-                <a href="#" class="link footer__menu-item">На главную</a>
-                <a href="#" class="link footer__menu-item">Основная информация</a>
-                <a href="#" class="link footer__menu-item">Участники</a>
-                <a href="#" class="link footer__menu-item">Прямая трансляция</a>
-                <a href="#" class="link footer__menu-item">Турнирная сетка</a>
-                <a href="#" class="link footer__menu-item">Таблица результатов</a>
-                <a href="#" class="link footer__menu-item">Фото/Видео</a>
-                <a href="#" class="link footer__menu-item">Контакты</a>
-            </div>
-        </nav>
-        <a class="link footer__btn-top">
-            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="24" viewBox="0 0 42 24" fill="none">
-                <path d="M38 20L21 4L4 20" stroke="#F0F0F0" stroke-width="7" stroke-linecap="round"
-                      stroke-linejoin="round"/>
-            </svg>
-        </a>
+    <nav class="footer__menu-mobile">
+        <div class="footer__menu-mobile-list">
+            <a href="#" class="link footer__menu-item">На главную</a>
+            <a href="#" class="link footer__menu-item">Основная информация</a>
+            <a href="#" class="link footer__menu-item">Участники</a>
+            <a href="#" class="link footer__menu-item">Прямая трансляция</a>
+            <a href="#" class="link footer__menu-item">Турнирная сетка</a>
+            <a href="#" class="link footer__menu-item">Таблица результатов</a>
+            <a href="#" class="link footer__menu-item">Фото/Видео</a>
+            <a href="#" class="link footer__menu-item">Контакты</a>
+        </div>
+    </nav>
+    <a class="link footer__btn-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="24" viewBox="0 0 42 24" fill="none">
+            <path d="M38 20L21 4L4 20" stroke="#F0F0F0" stroke-width="7" stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </svg>
+    </a>
 </footer>
 <div class="link footer__website-development">Разработка — Югорские Интернет Решения</div>
 </body>

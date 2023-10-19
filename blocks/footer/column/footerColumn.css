@@ -4,4 +4,11 @@
     justify-content: space-between;
     margin: 0 auto 70px 0;
     height: 162px;
+
+}
+
+@media(max-width: 767px) {
+    .footer__column {
+        margin: 0 auto 99px auto;
+    }
 }

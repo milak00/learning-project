@@ -24,3 +24,11 @@
         overflow: hidden;
     }
 }
+
+@media (max-width: 767px) {
+    .news__post {
+        height: auto;
+        flex-direction: column;
+
+    }
+}

@@ -9,5 +9,17 @@
         width: 330px;
         height: 330px;
     }
+}
 
+@media(max-width: 767px) {
+    .news__image img {
+        width: 508px;
+        height: auto;
+    }
+
+    .news__image {
+        width: 508px;
+        height: auto;
+        margin-bottom: 12px;
+    }
 }

@@ -1,4 +1,9 @@
 .footer__row {
     display: flex;
+}
 
+@media(max-width: 767px) {
+    .footer__row {
+        margin: 0 auto;
+    }
 }
