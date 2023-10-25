@@ -1,0 +1,4 @@
+.header__menu_direction_column {
+    flex-direction: column;
+    height: auto;
+}

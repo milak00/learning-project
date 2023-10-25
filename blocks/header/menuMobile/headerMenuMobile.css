@@ -1,0 +1,24 @@
+.header__menu-mobile {
+    display: none;
+}
+
+@media(max-width: 1199px) {
+    .header__menu-mobile {
+        background: #FFFFFF;
+        width: 576px;
+        display: block;
+        position: absolute;
+        height: auto;
+        top: 0;
+        right: 0;
+    }
+
+    .header__menu-mobile .header__menu{
+        display: flex;
+        width: auto;
+    }
+
+    .header__menu-mobile .header__logo {
+        width: 148px;
+    }
+}

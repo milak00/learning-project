@@ -2,6 +2,7 @@
     background: url(../../../assets/img/slowVision/icon.png) no-repeat;
     width: 38px;
     height: 15px;
+    display: block;
 }
 
 @media(max-width: 1199px) {

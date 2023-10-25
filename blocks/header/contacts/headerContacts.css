@@ -1,0 +1,12 @@
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 767px) {
+    .header__contacts {
+        align-items: center;
+        order: 2;
+        margin-bottom: 32px;
+    }
+}
