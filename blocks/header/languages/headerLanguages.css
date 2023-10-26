@@ -5,6 +5,18 @@
     margin: 0 47px 0 0;
 }
 
+@media(max-width: 1199px) {
+    .header__menu-mobile .header__languages {
+        margin: 0 auto 31px auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #F0F0F0;
+        z-index: 2;
+        padding: 19px 0;
+    }
+}
+
 @media(max-width: 767px) {
     .header__languages {
         display: none;

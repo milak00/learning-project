@@ -1,10 +1,11 @@
 .header__tel {
-    color: #C2DA6B;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    color: #A2CC5C;
+    text-align: center;
+    font-family: Roboto, sans-serif, sans-serif;
+    font-size: 34px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 15px;
-
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
 }

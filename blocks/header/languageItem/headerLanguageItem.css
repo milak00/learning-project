@@ -4,3 +4,13 @@
     line-height: 19px;
 }
 
+.header__menu-mobile .header__language-item {
+    font-size: 24px;
+    margin-right: 21px;
+}
+
+.header__menu-mobile .header__language-item:last-child {
+    margin-right: 0;
+}
+
+

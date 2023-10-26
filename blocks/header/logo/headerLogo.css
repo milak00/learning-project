@@ -6,10 +6,16 @@
     display: block;
 }
 
-
 @media(max-width: 1500px) {
     .header__logo {
         width: 202px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .header__menu-mobile .header__logo {
+        width: 148px;
+        background-size: contain;
     }
 }
 

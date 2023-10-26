@@ -20,6 +20,21 @@
     src: url("fonts/Baufra/Baufra-Bold.ttf");
 }
 
+@font-face {
+    font-family: "Gotham Pro Black";
+    src: url("fonts/Gotham Pro/gothampro_black.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("fonts/Gotham Pro/gothampro.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Pro Light";
+    src: url("fonts/Gotham Pro/gothampro_light.ttf");
+}
+
 
 
 

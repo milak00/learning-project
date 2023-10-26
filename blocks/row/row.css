@@ -1,3 +1,8 @@
 .row {
     display: flex;
 }
+
+.header__menu-mobile .row {
+    padding: 38px 33px 76px 33px;
+    justify-content: space-between;
+}
