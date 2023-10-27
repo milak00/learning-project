@@ -1,0 +1,6 @@
+.header__menu-btn-line.bottom {
+    position: absolute;
+    transition: .35s;
+    transform: rotate(-45deg);
+    background-color: #BBBBBB;
+}
