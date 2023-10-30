@@ -1,0 +1,15 @@
+.header__menu-btn-line-medium {
+    transition: .35s;
+    width: 36px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #A2CC5C;
+}
+
+.header__menu-btn.active .header__menu-btn-line-medium {
+    position: absolute;
+    margin-top: 13px;
+    transform: rotate(45deg);
+    background-color: #BBBBBB;
+}

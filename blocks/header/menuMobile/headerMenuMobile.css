@@ -1,18 +1,27 @@
 .header__menu-mobile {
     display: none;
+
 }
 
-@media(max-width: 1199px) {
+.header__menu-mobile.active {
+
+    opacity: 1;
+}
+
+@media (max-width: 1199px) {
     .header__menu-mobile {
         box-shadow: 0 15px 25px 0 rgba(51, 51, 51, 0.24);
         background: #FFFFFF;
         width: 576px;
-        display: block;
-        position: absolute;
+        display: none;
+        position: fixed;
         height: auto;
         top: 0;
         right: 0;
+        opacity: 0;
         z-index: 2;
+        transition: .105s;
+        pointer-events: auto;
+        overflow-y: scroll;
     }
-
 }

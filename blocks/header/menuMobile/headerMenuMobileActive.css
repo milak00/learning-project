@@ -1,0 +1,4 @@
+.header__menu-mobile.active {
+    transition: transform 0.2s;
+    display: block;
+}

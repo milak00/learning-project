@@ -1,6 +1,15 @@
 .header__menu-btn {
     height: 30px;
     display: none;
+    cursor: pointer;
+    z-index: 3;
+    transition: .35s;
+}
+
+.header__menu-btn.active {
+    border: 2px solid #BBBBBB;
+    padding: 16px;
+    margin-right: -16px;
 }
 
 @media(max-width: 1199px) {

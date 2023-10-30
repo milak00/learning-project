@@ -4,10 +4,6 @@ window.addEventListener('load', () => {
     div.className = "header__menu-mobile";
     div.innerHTML = `<div class="row">
         <a href="#" class="header__logo"></a>
-    <div class="header__menu-btn mobile">
-        <div class="header__menu-btn-line top"></div>
-        <div class="header__menu-btn-line bottom"></div>
-    </div>
 </div>
     <ul class="header__menu header__menu_direction_column" role="navigation">
         <li class="header__menu-item"><a href="#" class="link">Прямая трансляция</a></li>

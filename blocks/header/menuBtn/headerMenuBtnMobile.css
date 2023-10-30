@@ -1,8 +1,0 @@
-.header__menu-btn.mobile {
-    display: flex;
-    border: 2px solid #BBBBBB;
-    padding: 16px;
-    align-items: center;
-    justify-content: center;
-    transition: .35s;
-}
