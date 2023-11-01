@@ -1,9 +1,13 @@
 .header__menu-btn {
+    width: 36px;
     height: 30px;
     display: none;
     cursor: pointer;
     z-index: 3;
     transition: .35s;
+    overflow: hidden;
+    position: relative;
+
 }
 
 .header__menu-btn.active {
@@ -16,7 +20,6 @@
     .header__menu-btn {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
 }
 
