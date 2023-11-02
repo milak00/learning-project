@@ -1,7 +1,7 @@
 .header__menu-btn-line-medium {
     position: absolute;
     transition: .35s;
-    top: calc(70% - 2px);
+    top: 12px;
     width: 36px;
     height: 5px;
     flex-shrink: 0;
@@ -10,5 +10,7 @@
 }
 
 .header__menu-btn.active .header__menu-btn-line-medium {
-    width: 0;
+    top: calc(50% - 2px);
+    transform: rotate(45deg);
+    background-color: #BBBBBB;
 }

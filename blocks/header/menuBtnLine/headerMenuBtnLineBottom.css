@@ -1,6 +1,6 @@
 .header__menu-btn-line-bottom {
     position: absolute;
-    top: calc(100% - 2px);
+    top: 24px;
     transition: .35s;
     width: 36px;
     height: 5px;
@@ -10,8 +10,7 @@
 }
 
 .header__menu-btn.active .header__menu-btn-line-bottom {
-    margin-bottom: 12px;
-    margin-top: -20px;
+    top: calc(50% - 2px);
     transform: rotate(-45deg);
     background-color: #BBBBBB;
 }

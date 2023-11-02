@@ -3,22 +3,27 @@
 }
 
 .header__menu-mobile.active {
+    pointer-events: auto;
     opacity: 1;
+}
+
+.header__menu-mobile.active::-webkit-scrollbar {
+    display: none;
 }
 
 @media (max-width: 1199px) {
     .header__menu-mobile {
+        transition: .35s;
         box-shadow: 0 15px 25px 0 rgba(51, 51, 51, 0.24);
         background: #FFFFFF;
         width: 576px;
         display: none;
         position: fixed;
-        height: auto;
+        height: 100%;
         top: 0;
         right: 0;
         opacity: 0;
         z-index: 2;
-        transition: all 1s ease;
         pointer-events: auto;
         overflow-y: scroll;
     }

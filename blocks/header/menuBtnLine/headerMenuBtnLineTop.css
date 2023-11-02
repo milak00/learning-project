@@ -10,7 +10,7 @@
 }
 
 .header__menu-btn.active .header__menu-btn-line-top {
-    margin-top: 13px;
+    top: -18px;
     transform: rotate(45deg);
     background-color: #BBBBBB;
 }
