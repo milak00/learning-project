@@ -9,6 +9,7 @@
 @media(max-width: 1500px) {
     .header__logo {
         width: 202px;
+        margin-top: 12px;
     }
 }
 
@@ -16,6 +17,8 @@
     .header__menu-mobile .header__logo {
         width: 148px;
         background-size: contain;
+        position: fixed;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 }
 

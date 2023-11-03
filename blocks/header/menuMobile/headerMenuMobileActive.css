@@ -1,4 +1,12 @@
-.header__menu-mobile.active {
-    transition: transform 0.2s;
-    display: block;
+@media (max-width: 1199px) {
+    .header__menu-mobile.active {
+        pointer-events: auto;
+        opacity: 1;
+        display: block;
+    }
+
+    .header__menu-mobile.active::-webkit-scrollbar {
+        display: none;
+    }
+
 }

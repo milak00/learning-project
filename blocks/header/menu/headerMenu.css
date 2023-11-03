@@ -21,6 +21,7 @@
         width: 506px;
     }
 }
+
 @media(max-width: 1199px) {
     .header__menu {
         display: none;
@@ -30,6 +31,7 @@
         display: flex;
         width: auto;
         align-items: center;
+        margin-top: 76px;
         margin-bottom: 46px;
     }
 }

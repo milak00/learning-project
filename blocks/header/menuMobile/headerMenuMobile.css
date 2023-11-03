@@ -2,15 +2,6 @@
     display: none;
 }
 
-.header__menu-mobile.active {
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.header__menu-mobile.active::-webkit-scrollbar {
-    display: none;
-}
-
 @media (max-width: 1199px) {
     .header__menu-mobile {
         transition: .35s;

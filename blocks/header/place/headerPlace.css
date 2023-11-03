@@ -8,7 +8,9 @@
         font-style: normal;
         font-weight: 400;
         line-height: 16px;
-        margin-bottom: 44px;
+        margin: 0 auto 44px auto;
+        width: 159px;
+        text-align: center;
     }
 }
 
