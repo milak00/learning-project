@@ -9,6 +9,12 @@
     display: flex;
     flex-wrap: wrap;
     padding: 24px 0 24px 30px;
+}
 
+@media(max-width: 1199px) {
+    .header__menu-mobile .header__dropdown-item:not(:last-child) {
+        padding: 24px 0;
+        border-bottom: 1px solid #BBB;
+    }
 }
 

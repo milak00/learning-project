@@ -29,8 +29,24 @@
 }
 
 @media(max-width: 1199px) {
-    .header__menu-mobile.active .header__dropdown {
+    .header__menu-item.active .header__dropdown {
+        background-color: #2de254;
+    }
 
+    .header__menu-mobile .header__dropdown {
+        position: static;
+        box-shadow: none;
+        display: flex;
+        opacity: 1;
+        transform: none;
+        width: auto;
+        align-items: center;
+        background-color: #F0F0F0;
+        flex-direction: column;
+    }
+
+    .header__menu-item:hover > .header__dropdown {
+        display: flex;
     }
 }
 

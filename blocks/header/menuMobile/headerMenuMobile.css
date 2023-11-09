@@ -17,5 +17,6 @@
         z-index: 2;
         pointer-events: auto;
         overflow-y: scroll;
+        text-align: center;
     }
 }

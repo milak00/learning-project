@@ -25,5 +25,16 @@
         line-height: 114.84%;
         font-family: "Gotham Pro Black", Arial, sans-serif;
         margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .header__menu-mobile .header__menu-item::after {
+        display: none;
+        content: url("../../../assets/img/headerMenuItem/arrow.png");
+        width: 18px;
+        height: 18px;
+        z-index: 2;
+        margin-left: 15px;
+        float: right;
     }
 }
